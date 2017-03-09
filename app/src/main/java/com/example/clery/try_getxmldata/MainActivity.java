@@ -47,7 +47,7 @@ public class MainActivity extends Activity implements Runnable{
         saveData = SaveData.getsaveData(getApplicationContext());
 
         activitytitle = (Titledesign)findViewById(R.id.activitytitle);
-        activitytitle.setTextView("本周即時油價");
+        activitytitle.setTextView("即時油價");
 
         oilprediction = (TextView)findViewById(R.id.oilprediction);
         oilpredictionprice = (TextView)findViewById(R.id.oilpredictionprice);
